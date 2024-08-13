@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+.header {
+    background-color: #1D4ED8; /* bg-blue-700 */
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Estilos para los botones */
+  .buttons {
+    display: flex;
+  }
+  
+  .btn {
+    background-color: #10B981; /* bg-green-500 */
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #059669; /* hover:bg-green-600 */
+  }
+  
+  .main-container {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #E5E7EB; /* bg-gray-200 */
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .main-logo {
+    height: 15rem; /* Ajuste para que coincida con la imagen */
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem; /* Ajuste para que coincida con la imagen */
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    color: #4B5563; /* text-gray-600 */
+    margin-bottom: 1.5rem; /* Ajuste para que coincida con la imagen */
+  }
+  
+  .download-btn {
+    background-color: #3B82F6; /* bg-blue-500 */
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .download-btn:hover {
+    background-color: #2563EB; /* hover:bg-blue-600 */
+  }
+  
